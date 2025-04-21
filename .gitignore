@@ -1,0 +1,4 @@
+venv/
+__pycache__/
+
+US_Accidents_March23.csv
