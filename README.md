@@ -88,7 +88,7 @@ Despite existing safety efforts, traffic accidents remain prevalent due to poor 
     ```
 
 ## Interactive Dashboard
-![Streamlit Interactive Dashboard](assets/Dashboard.png) |
+![Streamlit Interactive Dashboard](assets/Dashboard.png)
 
 
 ## License
