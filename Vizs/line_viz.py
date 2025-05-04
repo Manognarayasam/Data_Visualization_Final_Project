@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-def render_second_viz(df):
+def render_line_viz(df):
     #4st.markdown("This animated line chart shows the number of accidents for each hour across different weekdays.")
 
     # Defineing color palette
@@ -19,7 +19,7 @@ def render_second_viz(df):
         x="Hour",
         y="Accidents",
         animation_frame="DayOfWeek",
-        title="Hourly Accidents Across Weekdays",
+        #title="Hourly Accidents Across Weekdays",
         markers=True,
         line_shape="spline",
         color_discrete_sequence=[colors[2]]

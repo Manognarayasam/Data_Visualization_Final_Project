@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from Vizs.firstviz import render_first_viz
-from Vizs.secondviz import render_second_viz
-from Vizs.thirdviz import render_third_viz
-from Vizs.fourthviz import render_fourth_viz
-from Vizs.fifthviz import render_fifth_viz
+from Vizs.area_viz import render_first_viz
+from Vizs.line_viz import render_second_viz
+from Vizs.dotplot_viz import render_third_viz
+from Vizs.choroplethmap_viz import render_fourth_viz
+from Vizs.bar_viz import render_fifth_viz
 
 st.set_page_config(layout="wide", page_title="US Accidents Scrollytelling")
 
