@@ -47,8 +47,8 @@ Despite existing safety efforts, traffic accidents remain prevalent due to poor 
 | Insight | Description | Visualization Types | Example Image |
 |--------|-------------|---------------------|---------------|
 | **1. Where & when do severe accidents occur?** | Analyze spatial & temporal patterns to understand risk zones across states and times | Choropleth map | ![Severe Accidents Map](assets/Bhavitha_viz.png) |
-| **2. How does weather impact severity?** | Discover how weather like rain, fog, or snow influences accident severity | Grouped Bar Charts | ![Weather vs Severity](assets/Sreemayeeviz.jpg) |
-| **3. When are roads most dangerous?** | Identify accident trends by hour and weekday | Line Plot| ![Hourly and Weekly Trends](assets/Accidents_count_line_graph.png) |
+| **2. How does weather impact severity?** | Discover how weather like rain, fog, or snow influences accident severity | Stacked Bar Charts | ![Weather vs Severity](assets/Sreemayeeviz.png) |
+| **3. When are roads most dangerous?** | Identify accident trends by hour and weekday | Line Plot| ![Hourly and Weekly Trends](assets/Manogna2_viz.png) |
 | **4. Are traffic signals reducing severity?** | Examine if features like traffic lights and stop signs lower severity | Dot Plot | ![Traffic Features Impact](assets/Divya_viz.jpg) |
 | **5. How is accident severity trending?** | Track longitudinal trends in accident severity from 2016 to 2023 | Area Chart | ![Severity Trends Over Time](assets/Manognaviz.jpg) |
 
@@ -84,11 +84,11 @@ Despite existing safety efforts, traffic accidents remain prevalent due to poor 
    ```
 5. View the Dashboard
     ```
-    http://localhost:8501/
+    http://localhost:xxxx/
     ```
 
-## Interactive Dashboard
-![Streamlit Interactive Dashboard](assets/Dashboard.png)
+## Interactive Website
+![Streamlit Interactive Website](assets/Dashboard.png)
 
 
 ## License
