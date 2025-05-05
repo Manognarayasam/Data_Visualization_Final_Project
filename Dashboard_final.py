@@ -165,5 +165,5 @@ st.caption("This animated map shows the evolution of Severity 4 traffic accident
 
 
 st.markdown("--------------")
-st.subheader("Additional Insights")
+st.subheader("Additional Insi")
 st.image("assets/Chrisviz.jpg", use_container_width=True)
