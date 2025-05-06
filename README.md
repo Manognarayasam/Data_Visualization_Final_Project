@@ -17,20 +17,30 @@ Despite existing safety efforts, traffic accidents remain prevalent due to poor 
 
 ## Project Structure
 ```
-📁 DATA_VISUALIZATION_FINAL_PROJECT
-├── assets/  
-├── Vizs/
-│   ├── firstviz.py
-│   ├── secondviz.py
-│   ├── thirdviz.py
-│   ├── fourthviz.py
-│   └── fifthviz.py
-├── Dashboard.py
-├── Dashboard_final.py
-├── Scrolling_application.py
-├── US_Accidents_March23.csv # This file needs to be downloaded from Kaggle
-├── requirements.txt
-└── README.md
+DATA_VISUALIZATION_PROJECT/
+│
+├── assets/                        # Static files like images, icons, fonts
+│
+├── Vizs/                          # Visualization scripts                         
+│   ├── area_viz.py                # Makes this a package (optional, but useful)
+│   ├── bar_viz.py
+│   ├── choroplethmap_viz.py
+│   ├── donut_viz.py
+│   ├── dotplot_viz.py
+│   ├── line_viz.py
+│
+├── data/                          # Data files (move CSVs here)
+│   └── US_Accidents_March23.csv
+│
+├── .gitignore                     # Git ignored files (see below)
+├── Dashboard_final.py            # Main app / dashboard entry point
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project overview and instructions
+├── Scrolling_application.py      # Possibly merge into Dashboard_final.py?
+├── scrollytell_section.py        # Can also be grouped logically in /Vizs or merged
+│
+└── venv/                          # Virtual environment (ignored via .gitignore)
+
 
 ```
 
